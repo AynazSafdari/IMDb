@@ -1,0 +1,156 @@
+/* explore */
+main div .explore{
+    width: 100%;
+    height: 380px;
+    display: block;
+}
+
+main div .explore .topic{
+    width: 100%;
+    height: 40px;
+    margin: 24px 0;
+    padding: 0 16px;
+    display: block;
+}
+
+main div .explore .topic h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(245,197,24);
+    line-height: 22px;
+    display: block;
+}
+
+main div .explore .topbox{
+    width: 100%;
+    height: 300px;
+    padding: 24px 0;
+    background-color: rgb(18, 18, 18);
+    display: block;
+    padding-top: 0;
+}
+
+main div .explore .topbox div{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+main div .explore .topbox div .title{
+    width: 100%;
+    height: 50px;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    display: block;
+    margin-top: 0;
+}
+
+main div .explore .topbox div .title a{
+     width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+main div .explore .topbox div .title a h3{
+     display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    padding-left: 7px;
+    border-left: 4px solid #f5c518;
+    border-radius: 4px;
+}
+
+main div .explore .topbox div .title .description{
+     width: 100%;
+    padding-top: 4px;
+    color: rgba(255,255,255,.7);
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-top: 0;
+}
+
+main div .explore .topbox div .movies{
+    width: 100%;
+    display: block;
+}
+
+main div .explore .topbox div .movies .in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+main div .explore .topbox div .movies .in div{
+    width: 50%;
+    height: 66px;
+    padding: 12px 16px;
+    display: flex;
+}
+
+main div .explore .topbox div .movies .in div .nummber{
+    width: 9px;
+    height: 24px;
+    margin: 9px 0;
+    display: block;
+    padding: 0;
+    color: #fff;
+}
+
+main div .explore .topbox div .movies .in div .line{
+    width: 1px;
+    height: 18px;
+    margin: auto 0.75rem auto 0.5rem;
+    border-right: 1px solid rgb(245, 197, 24);
+    display: inline-block;
+    padding: 0;
+}
+
+main div .explore .topbox div .movies .in div span{
+    width: 32px;
+    height: 41px;
+    display: inline-block;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    fill-opacity: 0.8;
+}
+main div .explore .topbox div .movies .in div span:hover{
+    opacity: 0.9;
+}
+
+main div .explore .topbox div .movies .in div span .plus{
+    position: relative;
+    top: -104%;
+    left: 36%;
+}
+
+main div .explore .topbox div .movies .in div a{
+    height: 42px;
+    padding-left: 12px;
+    text-decoration: none;
+}
+
+main div .explore .topbox div .movies .in div a .firstline{
+    width: 100%;
+     height: 36px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 0;
+}
+
+main div .explore .topbox div .movies .in div a .secondline{
+    height: 24px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    text-align: left;
+}

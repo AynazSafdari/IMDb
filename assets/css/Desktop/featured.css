@@ -1,0 +1,331 @@
+/* Featured */
+main div .featured{
+   width: 100%;
+   height: 430px;
+   background-color: rgb(0, 0, 0);
+   display: block;
+   padding: 24px 0;
+   /* margin: 0 auto; */
+   margin-bottom: 32px;
+}
+
+main div .featured .title{
+    width: 855px;
+    height: 32px;
+    margin: 24px 0;
+    padding: 0 16px;
+    display: block;
+    margin-top: 0;
+}
+
+main div .featured .title h3{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.2058px;
+    color: rgb(245, 197, 24);
+    display: block;
+}
+
+main div .featured .movies{
+    width: 855px;
+    height: 302px;
+    display: block;
+    padding: 0 16px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin: 0;
+}
+main div .featured .movies .slider{
+     width: 855px;
+    height: 302px;
+    display: block;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-control-prev{
+    width: 50px;
+    height: 66px;
+    padding: 20px 12px;
+    background-color: rgba(18, 18, 18, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: -74%;
+    display: block;
+}
+main div .featured .movies .slider #carouselExample .carousel-control-next{
+    width: 50px;
+    height: 66px;
+    padding: 20px 12px;
+    background-color: rgba(18, 18, 18, 0.45);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: -94%;
+    right: -94%;
+    display: block;
+}
+
+main div .featured .movies .slider #carouselExample{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item{
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl{
+    width: 48%;
+    height: 100%;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div{
+    width: 48%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .photo{
+    width: 100%;
+    height: 226px;
+    display: flex;
+    border-radius: 12px;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .photo .icon{
+    width: 62px;
+    height: 32px;
+    display: none;
+    flex-flow: row nowrap;
+    background-color: unset;
+    position: relative;
+    top: 83%;
+    right: 85%;
+    z-index: 100;
+}
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .photo .icon span{
+    color: #fff;
+    display: block;
+    line-height: 32px;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .photo a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .photo a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .text{
+    width: 100%;
+    height: 72px;
+    padding: 12px 4px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .text .firstline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+main div .featured .movies .slider #carouselExample .carousel-inner .carousel-item .gl div .inside .text .secondline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(87, 153, 239);
+    margin-top: 8px;
+}
+
+main div .featured .movies ul{
+    width: max-content;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+main div .featured .movies ul li{
+    height: 100%;
+    margin-right: 8px;
+    display: inline-block;
+    scroll-snap-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+     max-width: calc((430px - 2 * 16px) * .83333);
+    width: calc((100vw - 2 * 16px) * .83333);
+    min-width: calc((320px - 2 * 16px) * .83333);
+}
+
+main div .featured .movies ul li .photo{
+    width: 100%;
+    height: 194px;
+    display: block;
+}
+
+main div .featured .movies ul li .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main div .featured .movies ul li .text{
+    width: 100%;
+    height: 72px;
+    padding: 12px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+main div .featured .movies ul li .text .firstline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+main div .featured .movies ul li .text .secondline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(87, 153, 239);
+    margin-top: 8px;
+}
+
+main div .featured .movies .slider{
+    width: 100%;
+    height: 100%;
+}
+main div .featured .movies .slider .carousel.slide{
+    width: 100%;
+    height: 100%;
+}
+main div .featured .movies .slider .carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+main div .featured .movies .slider .carousel-item{
+    width: 100%;
+    height: 100%;
+}
+main div .featured .movies .slider .carousel-item .gl{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div{
+    width: 48%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .photo{
+    width: 100%;
+    height: 226px;
+    display: flex;
+    border-radius: 12px;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .photo .icon{
+    width: 62px;
+    height: 32px;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: unset;
+    position: relative;
+    top: 83%;
+    right: 85%;
+    z-index: 1000000000000000001;
+}
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .photo .icon span{
+    color: #fff;
+    display: block;
+    line-height: 32px;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .photo a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .photo a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .text{
+    width: 100%;
+    height: 72px;
+    padding: 12px 4px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .text .firstline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+main div .featured .movies .slider .carousel.slide .carousel-inner .carousel-item .gl div .inside .text .secondline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(87, 153, 239);
+    margin-top: 8px;
+}

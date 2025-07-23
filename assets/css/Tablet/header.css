@@ -1,0 +1,683 @@
+header{
+    width: 100%;
+    height: 56px;
+    padding: 4px 0;
+    display: block;
+    background-color: #121212;
+}
+
+header div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div .menu{
+    width: 36%;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+header div .menu .btn_show{
+    border: unset;
+    background-color: unset;
+}
+
+header div .menu .mobile_menu{
+    width: 280px;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 200ms;
+    z-index: 1000;
+}
+
+.show{
+    left: 0 !important;
+}
+
+header div .menu .mobile_menu .btn_close{
+    width: 48px;
+    height: 48px;
+    background-color: unset;
+    border: unset;
+    color: #fff;
+    padding: 11px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header div .menu .mobile_menu .items{
+    width: 100%;
+    height: 413px;
+    display: block;
+}
+
+header div .menu .mobile_menu .items #accordionFlushExample{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 31, 31);
+}
+header div .menu .mobile_menu .items #accordionFlushExample .accordion-item{
+    width: 140%;
+    background-color: rgb(31,31,31);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -20%;
+    border: unset;
+}
+header div .menu .mobile_menu .items #accordionFlushExample .accordion-item .accordion-header{
+    border: unset;
+}
+header div .menu .mobile_menu .items #accordionFlushExample .accordion-item .accordion-button{
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    border: unset;
+} 
+header div .menu .mobile_menu .items #accordionFlushExample .accordion-item .accordion-button span{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-left: 20px;
+}
+header div .menu .mobile_menu .items #accordionFlushExample .accordion-item .accordion-collapse .accordion-body{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+header div .menu .mobile_menu .items #accordionFlushExample .accordion-item .accordion-collapse .accordion-body a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px 8px 52px;
+    text-align: left !important;
+}
+
+header div .menu .mobile_menu .items ul{
+    width: 100%;
+    height: 100px;
+    padding: 0;
+}
+
+header div .menu .mobile_menu .items ul li{
+    width: 100%;
+    height: 65px;
+    padding: 0;
+    margin: 0;
+}
+header div .menu .mobile_menu .items ul li a{
+    text-decoration: none;
+    padding: 16px;
+    margin-top: 24px;
+}
+header div .menu .mobile_menu .items ul li a .text{
+    display: block;
+    width: 80%;
+    height: 38px;
+    padding-left: 10px;
+}
+header div .menu .mobile_menu .items ul li a .text .first{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #a1a1a1;
+    display: block;     
+}
+header div .menu .mobile_menu .items ul li a .text .second{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.25004px;
+    line-height: 20px;
+    display: block;
+}
+header div .menu .mobile_menu .items ul li a .icon{
+    width: 20%;
+    display: flex;
+    position: relative;
+    right: -80%;
+    top: -25%;
+    padding-left: 12px;
+}
+
+header div .menu:active{
+    background-color: rgba(75, 73, 73, 0.466);
+    border-radius: 24px;
+}
+
+header div .menu .mobile_menu div{
+    width: 100%;
+    height: 100%;
+    padding: 32px 0;
+    display: none;
+}
+
+header div .menu .mobile_menu div .panelheader{
+    width: 100%;
+    height: 63px;
+    max-width: 1024px;
+    margin: auto;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header div .menu .mobile_menu div .panelheader a{
+    width: 98px;
+    height: 63px;
+    text-decoration: none;
+}
+
+header div .menu .mobile_menu div .panelcontent{
+    max-width: 1024px;
+    margin: auto;
+    display: block;
+}
+
+header div .menu .mobile_menu div .panelcontent .inner{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: -30px;
+}
+
+header div .menu .mobile_menu div .panelcontent .inner div{
+    flex-basis: 33%;
+    height: 413px;
+    display: block;
+    padding: 0;
+}
+header div .menu .mobile_menu div .panelcontent .inner div:nth-of-type(4){
+    height: 142px;
+}
+header div .menu .mobile_menu div .panelcontent .inner div:nth-of-type(5){
+    height: 142px;
+    position: relative;
+    top: -33%;
+}
+header div .menu .mobile_menu div .panelcontent .inner div:nth-of-type(6){
+    height: 142px;
+}
+
+header div .menu .mobile_menu div .panelcontent .inner div .bx{
+    width: 100%;
+    display: block;
+}
+header div .menu .mobile_menu div .panelcontent .inner div .bx .title{
+    width: 100%;
+    height: 40px;
+    padding: 8px 16px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header div .menu .mobile_menu div .panelcontent .inner div .bx .title .icon{
+    padding-right: 12px;
+}
+header div .menu .mobile_menu div .panelcontent .inner div .bx .title span{
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 24px;
+}
+header div .menu .mobile_menu div .panelcontent .inner div .bx .link{
+    width: 100%;
+    display: block;
+}
+header div .menu .mobile_menu div .panelcontent .inner div .bx .link a{
+    text-decoration: none;
+    width: 100%;
+    height: 34px;
+    padding: 8px 16px 8px 52px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+header div .logo{
+    width: 74%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 4px;
+    margin-right: auto;
+}
+
+header div .logo a{
+   width: 100%;
+   height: 100%;
+   text-decoration: none;
+   border-radius: 8px;
+}
+
+header div .logo a img{
+    width: 64px;
+   height: 32px;
+   object-fit: cover;
+}
+
+header div .searchbar{
+    width: 418%;
+    height: 36px;
+    display: flex;
+    flex: 1 1 auto;
+    margin: 0 8px;
+    border-radius: 4px;
+}
+
+header div .searchbar form{
+    width: auto;
+    height: 35px;
+    display: flex;
+    flex: 1 1 0px;
+    border-radius: 4px;
+}
+
+header div .searchbar form .left{
+    width: 58px;
+    height: 32px;
+    display: flex;
+    background-color: #e6e6e6;
+    background-image: none;
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 4px 0 0 4px;
+}
+
+header div .searchbar form .left span{
+    width: 100%;
+    height: 100%;
+    border: unset;
+    background-color: #e6e6e6;
+    color: var(--__dChyWxpC1w4BMXs, #0f1111);;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+header div .searchbar form .left span div{
+     width: 235px;
+     height: 358px;
+     margin-top: 4px;
+     padding: 8px 0;
+     background-color: rgb(31,31,31);
+     position: absolute;
+     top: 7%;
+     transform: scale(1);
+     opacity: 1;
+     border-radius: 4px;
+     z-index: 100000001;
+     display: none;
+}
+
+header div .searchbar form .left span:hover div{
+     display: block !important;
+}
+
+header div .searchbar form .left span div ul{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255,255,255,1);
+    display: block;
+    padding: 0;
+}
+
+header div .searchbar form .left span div ul li{
+    width: 100%;
+    height: 48px;
+    padding: 12px 16px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header div .searchbar form .left span div ul li:nth-last-of-type(1){
+    border-top: 1px solid gray;
+}
+header div .searchbar form .left span div ul li a span:nth-of-type(5){
+    color: #f5c518;
+}
+header div .searchbar form .left span div ul li:hover{
+    background-color: rgba(75, 73, 73, 0.466);
+}
+
+header div .searchbar form .left span div ul li a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+}
+
+header div .searchbar form .left span div ul li a span{
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255,255,255,1);
+    background-color: unset;
+}
+
+header div .searchbar form .middle{
+    width: auto;
+    height: 32px;
+    display: flex;
+    flex: 1 1 0px;
+    border: none;
+    border-top: 1px solid transparent;
+    background-color: #fff;
+}
+
+header div .searchbar form .middle input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 9;
+    line-height: 15px;
+    padding: 7px 10px 10px 5px;
+    margin: 0;
+    border: 0;
+    font-size: 15px;
+    background: 0 0;
+    color: #111;
+}
+
+header div .searchbar form .right{
+    width: 45px;
+    height: 32px;
+    display: flex;
+    background-color: #fff;
+    border-radius: 0 4px 4px 0;
+    margin-top: 0;
+}
+
+header div .searchbar form .left{
+    width: 58px;
+    height: 32px;
+    display: flex;
+    background-color: #fff;
+    background-image: none;
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid gray;
+}
+
+header div .searchbar form .left span{
+    width: 100%;
+    height: 100%;
+    border: unset;
+    background-color: #fff;
+    color: var(--__dChyWxpC1w4BMXs, #0f1111);;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+header div .searchbar form .left button{
+    width: 4px;
+    margin: 6px 0 0 1px;
+    margin-top: 31px;
+    border: 4px solid transparent;
+    border-top: 4px solid #000;
+    border-bottom-width: 0;
+    background-color: unset;
+    position: relative;
+    top: -37%;
+    left: -20%;
+}
+
+header div .seperator{
+    width: 2px;
+    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    margin: 0 8px;
+}
+
+header div .search{
+    width: 30.5%;
+    height: 26px;
+    color: var(--ipt-on-baseAlt-textPrimary-color, rgba(255, 255, 255, 1));
+    transition: 0.3s;
+    opacity: 1;
+    transform: scale(1);
+    padding: 0px;
+    margin-left: 16px;
+    position: relative;
+    display: none;
+}
+
+header div .signin{
+    width: 54%;
+    height: 36px;
+}
+header div .signin:active{
+    background-color: rgba(75, 73, 73, 0.466);
+    border-radius: 24px;
+}
+
+header div .signin a{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+header div .app{
+    width: 70%;
+    height: 36px;
+    background-color: rgb(245,197,24);
+    color: rgb(0,0,0);
+    border-radius: 24px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+header div .app:active{
+    border: 1px dashed #fff;
+}
+
+header div .app a{
+    width: 75%;
+    height: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    text-align: center;
+}
+
+header div .imdbpro{
+    width: 84px;
+    height: 36px;
+    display: none;
+    position: relative;
+    order: 4;
+    margin-top: 13px;
+}
+
+header div .imdbpro a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+    justify-content: center;
+}
+
+header div .imdbpro a span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 20px;
+    display: inline;
+}
+
+header div .imdbpro a .pro{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0485A2;
+    line-height: 20px;
+    display: inline;
+}
+
+header div .watchlist{
+    width: 112px;
+    height: 36px;
+    display: none;
+    position: relative;
+    order: 6;
+    margin-top: 13px;
+}
+
+header div .watchlist a{
+    width: 100%;
+    height: 100%;
+    padding: 0 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+header div .watchlist a span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 20px;
+}
+
+header div .language{
+    width: 58px;
+    height: 36px;
+    display: none;
+    position: relative;
+    order: 8;
+}
+
+header div .language:hover div{
+    display: block;
+}
+
+header div .language div{
+    width: 250px;
+    height: 518px;
+    padding: 8px 0;
+    margin-top: 4px;
+    background-color: rgb(31,31,31);
+    transform: scale(1);
+    opacity: 1;
+    transition: opacity .1s, transform .1s;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -453%;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    z-index: 1;
+    overflow-y: scroll;
+}
+
+header div .language div .fully{
+    width: 100%;
+    height: 90px;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+header div .language div .fully li{
+    width: 100%;
+    height: 48px;
+    padding: 12px 16px;
+    align-items: center;
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+header div .language div .fully li span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.00004px;
+    color: rgba(255,255,255,1);
+    display: block;
+}
+
+header div .language div .partially{
+    width: 100%;
+    height: 440px;
+    display: block;
+    padding: 0;
+}
+
+header div .language div .partially a{
+    width: 100%;
+    height: 48px;
+    text-decoration: none;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+header div .language div .partially a span{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 2.00004px;
+    color: rgb(255,255,255);
+    display: block;
+}
+
+header div .language div .partially li{
+    width: 100%;
+    height: 48px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+}
+
+header div .language div .partially li .circle{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+header div .language div .partially li span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    padding-left: 8px;
+}
+
+header div .language span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 20px;
+}
+

@@ -1,0 +1,387 @@
+main{
+    width: 100%;
+    background-color: rgb(0,0,0);
+    display: block;
+    position: relative;
+}
+
+main div{
+    width: 100%;
+    position: relative;
+    display: block;
+}
+/* Trailers */
+main div .trailers{
+    width: 100%;
+    background-color: #000;
+    display: block;
+    padding-top: 30px;
+}
+
+main div .trailers .inside{
+    width: 100%;
+    /* height: 100%; */
+    margin-bottom: 8px ;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+main div .trailers .inside .top{
+    width: 100%;
+    height: 229px;
+    margin: 0 8px;
+    display: block;
+    position: relative;
+}
+
+main div .trailers .inside .top #carouselExampleControls{
+    width: 95%;
+   
+    margin: 0 auto;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner{
+    width: 100%;
+    
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item{
+    width: 100%;
+    height: 250px;
+    
+    background: linear-gradient(180deg, transparent 0%, transparent 65%, rgba(0, 0, 0, 0.7) 77%, rgba(0, 0, 0, 1) 85%, rgba(0, 0, 0, 1) 100%);
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .top{
+    width: 100%;
+    height: 240px;
+    position: relative;
+    margin: 0 auto;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .top img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    position: absolute;
+    top: 52%;
+    margin: 0;
+    z-index: 100;
+}
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text{
+    width: 70%;
+    height: 84px;
+    margin: 16px;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding: 0;
+    left: 20%;
+    top: 25%;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .play{
+    width: 88px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .name{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .name .first{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .name .first span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    padding: 0;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .name .first .time{
+    margin-left: 32px;
+    display: inline;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .name .second{
+    margin-top: 4px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .name .third{
+    height: 24px;
+    margin-top: 4px;
+    padding: 0;
+    display: block;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .text .name .third span{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+}
+
+
+
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left{
+    width: 90px;
+    height: 113px;
+    padding: 0;
+    position: absolute;
+    left: 3%;
+    border-radius: 12px;
+}
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left span{
+    width: 40px;
+    height: 54px;
+    position: relative;
+    top: -100%;
+    left: -17%;
+    fill-opacity: 0.8;
+}
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left span .plus{
+    position: relative;
+    top: -84%;
+    left: 37%;
+}
+
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left span{
+    width: 40px;
+    height: 64px;
+    position: relative;
+    top: 0%;
+    left: -105%;
+    fill-opacity: 0.8;
+}
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left span svg{
+    height: 45px;
+}
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left span .plus{
+    position: relative;
+    top: -80%;
+    left: 37%;
+}
+main div .trailers .inside .top #carouselExampleControls .carousel-inner .carousel-item div .bottom .left span .plus svg{
+    width: 17px;
+    height: 17px;
+}
+
+main div .trailers .inside .bottom{
+    width: 100%;
+    height: 45px;
+    margin: 0px 8px 0px 4px;
+    display: flex;
+    position: relative;
+}
+
+main div .trailers .inside .bottom div{
+    width: 100%;
+    height: 42px;
+    padding: 16px 16px 0px;
+    display: block;
+}
+
+main div .trailers .inside .bottom div a{
+    height: 22px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+}
+
+main div .trailers .inside .rightside{
+    width: 40%;
+    height: 547px;
+    margin-left: 4px;
+    margin-right: 8px;
+    display: none;
+    flex-direction: column;
+}
+
+main div .trailers .inside .rightside .firstsection{
+    width: 100%;
+    height: 52px;
+    display: block;
+}
+
+main div .trailers .inside .rightside .firstsection span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgb(245, 197, 24);
+    text-align: left;
+}
+
+main div .trailers .inside .rightside .secondsection{
+    width: 100%;
+    height: 444px;
+    display: block;
+    position: relative;
+}
+
+main div .trailers .inside .rightside .secondsection div{
+    width: 100%;
+    height: 148px;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+main div .trailers .inside .rightside .secondsection div .photo{
+    width: 88px;
+    height: 153px;
+    padding: 0;
+    padding-top: 16px;
+    display: flex;
+}
+
+main div .trailers .inside .rightside .secondsection div .photo a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border-radius: 12px;
+    display: flex;
+}
+
+main div .trailers .inside .rightside .secondsection div .photo a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+main div .trailers .inside .rightside .secondsection div a{
+    width: 291px;
+    height: 148px;
+    padding: 18px 8px 0;
+    text-decoration: none;
+}
+
+main div .trailers .inside .rightside .secondsection div a .one{
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+main div .trailers .inside .rightside .secondsection div a .one span{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+
+main div .trailers .inside .rightside .secondsection div a .two{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    padding: 0;
+}
+
+main div .trailers .inside .rightside .secondsection div a .two span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+main div .trailers .inside .rightside .secondsection div a .three{
+    width: 100%;
+    height: 20px;
+    padding: 0;
+}
+
+main div .trailers .inside .rightside .secondsection div a .three span{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+main div .trailers .inside .rightside .secondsection div a .four{
+    width: 100%;
+    height: 24px;
+    padding: 0;
+    margin-top: 4px;
+    display: flex;
+}
+
+main div .trailers .inside .rightside .secondsection div a .four span{
+    margin-right: 8px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+main div .trailers .inside .rightside .thirdsection{
+    width: 100%;
+    height: 32px;
+    padding: 16px 16px 0px;
+    display: block;
+}
+
+main div .trailers .inside .rightside .thirdsection div{
+    width: 100%;
+    height: 42px;
+    display: block;
+}
+
+main div .trailers .inside .rightside .thirdsection div a{
+    height: 22px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+}

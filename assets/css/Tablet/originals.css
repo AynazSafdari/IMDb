@@ -1,0 +1,259 @@
+/* originals */
+main div .originals{
+    width: 100%;
+    height: 445px;
+    padding: 24px 0;
+    background-color: rgb(18,18,18);
+    display: block;
+}
+
+main div .originals .title{
+    width: 100%;
+    height: 97px;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    display: block;
+    margin-top: 0;
+}
+
+main div .originals .title h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #fff;
+    padding-left: 7px;
+    border-left: 4px solid #f5c518;
+    border-radius: 4px;
+}
+
+main div .originals .title .description{
+    width: 100%;
+    height: 28px;
+    padding-top: 4px;
+    color: rgba(255,255,255,.7);
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+}
+
+main div .originals .movies{
+    width: 100%;
+    height: 314px;
+    display: block;
+    padding: 0 16px;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+
+main div .originals .movies .ORG{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+main div .originals .movies .ORG .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+
+main div .originals .ORG .swiper-wrapper .swiper-slide .inn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .photo{
+    width: 100%;
+    height: 227px;
+    display: block;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .photo a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .photo img{
+    width: 403px;
+    height: 227px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .photo .icons{
+    width: 68px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    top: 83%;
+    left: 3%;
+    background-color: unset;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .photo .icons svg{
+    margin-right: 8px;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .photo .icons span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .text{
+    width: 100%;
+    height: 72px;
+    padding: 8px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .svg{
+    width: 100%;
+    height: 24px;
+    margin-left: -4px;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .svg span{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .text .firstline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+main div .originals .movies .ORG .swiper-wrapper .swiper-slide .inn div .text .secondline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(87, 153, 239);
+    margin-top: 0px;
+}
+
+main div .originals .movies ul{
+    width: max-content;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block !important;
+}
+
+main div .originals .movies ul li{
+    height: 100%;
+    margin-right: 8px;
+    display: inline-block;
+    scroll-snap-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+     max-width: calc((430px - 2 * 16px) * .83333);
+    width: calc((100vw - 2 * 16px) * .83333);
+    min-width: calc((320px - 2 * 16px) * .83333);
+}
+
+main div .originals .movies ul li .photo{
+    width: 100%;
+    height: 60%;
+    display: block;
+}
+
+main div .originals .movies ul li .photo a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+main div .originals .movies ul li .photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main div .originals .movies ul li .photo .icons{
+    width: 68px;
+    height: 32px;
+    display: flex;
+    position: absolute;
+    top: 73%;
+    left: 7%;
+}
+
+main div .originals .movies ul li .photo .icons svg{
+    margin-right: 8px;
+}
+
+main div .originals .movies ul li .photo .icons span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+main div .originals .movies ul li .text{
+    width: 100%;
+    height: 72px;
+    padding: 8px 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+main div .originals .movies ul li .svg{
+    width: 100%;
+    height: 24px;
+    margin-left: -4px;
+}
+
+main div .originals .movies ul li .svg span{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+main div .originals .movies ul li .text .firstline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+main div .originals .movies ul li .text .firstline:hover{
+    text-decoration: underline;
+}
+main div .originals .movies ul li .text .secondline:hover{
+    text-decoration: underline;
+}
+main div .originals .movies ul li .text .secondline{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(87, 153, 239);
+    margin-top: 0px;
+}

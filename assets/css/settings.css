@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+
+@font-face {
+    font-family: IMDb;
+    src: url(../fonts/cm9ib3Rv._TTW_.woff2);
+    src: url(../fonts/cm9ib3RvQm9sZA._TTW_.woff2);
+    src: url(../fonts/cm9ib3RvTWVk._TTW_.woff2);
+    src: url(../fonts/Roboto-Bold.eot);
+    src: url(../fonts/Roboto-Bold.ttf);
+    src: url(../fonts/Roboto-Bold.woff);
+    src: url(../fonts/Roboto-Regular.eot);
+    src: url(../fonts/Roboto-Regular.ttf);
+    src: url(../fonts/Roboto-Regular.woff);
+}
+
+*{
+    font-family: IMDb;
+}

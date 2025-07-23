@@ -1,0 +1,165 @@
+/* Most Popular */
+main div .popular{
+    width: 100%;
+    height: 321px;
+    padding: 24px 0px;
+    display: block;
+    background-color: rgb(18, 18, 18);
+    margin-bottom: 24px;
+}
+
+main div .popular div{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    display: block;
+}
+
+main div .popular div .title{
+    width: 100%;
+    height: 21px;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    display: block;
+    color: rgba(255,255,255,1);
+    margin-top: 0;
+}
+
+main div .popular div .title a{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+}
+
+main div .popular div .title a h3{
+    display: flex;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 7px;
+    border-left: 4px solid #f5c518;
+    border-radius: 4px;
+}
+
+main div .popular div .title a h3 svg{
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+main div .popular div .title .description{
+    width: 100%;
+    height: 28px;
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+main div .popular div .celebrities{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+main div .popular div .celebrities #carouselPopular{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+main div .popular div .celebrities .mySwiper{
+    width: auto;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper{
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding: 0px 16px;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide{
+    width: 167px;
+    height: 100%;
+    margin-right: 8px;
+    position: relative;
+}
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide:hover{
+    opacity: 0.5;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide .topic{
+    width: 100%;
+    height: 28px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: rgb(245, 197, 24);
+    display: block;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide a{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide a .top{
+    width: 167px;
+    height: 167px;
+    border-radius: 50%;
+    display: inline-flex;
+    position: relative;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide a .top img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide a .middle{
+    width: 100%;
+    margin-top: 12px;
+    display: inline-flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide a .middle span{
+    color: #ffffffb3;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide a .middle span button{
+    border: 5px solid transparent;
+    border-top-width: 0;
+    border-bottom: 5px solid rgb(103, 173, 75);
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    background-color: unset;
+    position: relative;
+    top: -25%;
+    right: -2%;
+}
+
+main div .popular div .celebrities .mySwiper .swiper-wrapper .swiper-slide a .bottom{
+    width: 100%;
+    height: 24px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 1);
+}
+
+main div .popular div .celebrities .mySwiper .swiper-pagination{
+    width: 100%;
+    height: 30px;
+    display: block;
+    position: relative;
+    top: -12%;
+}
