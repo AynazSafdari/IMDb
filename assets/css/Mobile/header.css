@@ -260,6 +260,9 @@ header div .menu .mobile_menu div .panelcontent .inner div .bx .link a{
     justify-content: flex-start;
     color: #fff;
 }
+header div .menu .mobile_menu div .panelcontent .inner div .bx .link a:hover{
+    text-decoration: underline;
+}
 
 header div .menu span{
     display: none;
