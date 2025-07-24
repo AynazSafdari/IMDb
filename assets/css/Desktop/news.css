@@ -88,6 +88,9 @@ main div .news div .body ul li a .photo{
     background-color: rgb(18,18,18);
     display: flex;
 }
+main div .news div .body ul li a .photo:hover{
+    opacity: 0.5;
+}
 
 main div .news div .body ul li a .photo img{
     width: 100%;

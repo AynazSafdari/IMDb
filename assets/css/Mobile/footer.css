@@ -154,6 +154,9 @@ footer .links div .options div a{
     font-size: 16px;
     font-weight: 400;
 }
+footer .links div .options div a:hover{
+    text-decoration: underline;
+}
 
 footer .amazon{
     width: 100%;

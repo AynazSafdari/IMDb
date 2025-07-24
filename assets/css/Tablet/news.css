@@ -87,6 +87,9 @@ main div .news div .body ul li a .photo{
     background-color: rgb(18,18,18);
     display: flex;
 }
+main div .news div .body ul li a .photo:hover{
+    opacity: 0.5;
+}
 
 main div .news div .body ul li a .photo img{
     width: 100%;
@@ -156,7 +159,6 @@ main div .news div .bottom ul li{
 }
 
 main div .news div .bottom ul li a{
-    /* margin: 0 0 20px 15px; */
     padding-right: 3px;
     color: #fff;
     line-height: 15px;
